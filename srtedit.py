@@ -58,7 +58,7 @@ root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
 
 # the following code is for syntax highlighting
-htmlSyntax = ["<html>", "<style>", "<center>", "<h1>", "<h2>", "<h3>", "<h4>", "<p>"]
+htmlSyntax = ["(", ")", "-", "_", "*", "&", "<h4>", "<p>"]
 
 # go through the text in text_editor and highlight the words if they are in htmlSyntax
 def highlight_html(event):
@@ -74,3 +74,6 @@ while True:
     root.update()
 
 root.mainloop()
+
+
+#  UNFINISHED
